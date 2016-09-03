@@ -1,0 +1,44 @@
+
+.bg-gray {
+    width: 100%;
+    background-color: #D2D9DC;
+    height: 380px;
+    position: absolute;
+}
+.banner-wrapper {
+    /*height: 100%;*/
+}
+#slider-content {
+    width: 100%;
+}
+.newsletter-wrapper {
+    background-color: #DBE0E2;
+    height: 100%;
+    overflow: hidden;
+    padding: 7px;
+}
+#newsletter-content {
+    padding: 10px;
+    height: 100%;
+    background-color: #C2CBCF;
+}
+#newsletter-content h4 {
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #DEE3E6;
+    padding-bottom: 12px;
+}
+.banner-bottom-border {
+    height: 15px;
+    background-color: #333;
+    width: 100%;
+    border-radius: 0 0 6px 6px;
+}
+.health-logo img {
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+.slogan-content div {
+    overflow: hidden;
+}

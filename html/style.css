@@ -1,0 +1,275 @@
+/*
+Theme Name: Creative 360 Travel and Tours Theme
+Theme URI: 
+Author: Billy Joel Ranario
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 
+*/
+
+/*
+green: #7ab602;
+dark-gray: #333;
+light-gray: #FBFCFC;
+*/
+
+
+/* ---------* Fonts *---------------- */
+@import url('css/fonts.css') screen;
+@import url('css/plugins.css') screen;
+/* ---------* end: Fonts *----------- */
+
+/* ---------* Reset CSS *------------ */
+* { 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
+body {
+	font-family: raleway-reg, arial, sans-serif;
+    color: #777;	
+}
+h1 { 
+    font-size: 2.2em; 
+} 
+h2 { 
+    font-size: 2.0em;     
+} 
+h3 { 
+    font-size: 1.8em; 
+} 
+h4 { 
+    font-size: 1.6em;     
+} 
+h5 { 
+    font-size: 1.4em;     
+} 
+p { 
+    font-size: 1.2em;     
+}
+/*
+/* ---------* end: Reset CSS *------- */
+
+
+/* ---------* Header *---------------- */
+header {
+    position: relative;
+    transition: all 0.7s ease-in-out;
+    webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.heading-wrapper {
+    padding: 35px 0 30px;
+}
+.social-links-wrapper {
+    margin-top: 25px;
+}
+.social-links-wrapper a {
+    color: #fff;
+    background-color: #ccc;
+    width: 27px;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    height: 27px;
+    padding-top: 2px;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+    webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.social-links-wrapper a:hover {
+    background-color: #79B602;
+}
+
+#main-menu-wrapper {
+    background-color: #333;
+    border-radius: 5px 5px 0 0;
+    border: none;
+    margin-bottom: 0;
+}
+#main-menu li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase; 
+    transition: all 0.4s ease-in-out;
+    webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+#main-menu li:first-child a {
+    border-top-left-radius: 5px;
+}
+/* ---------* end: Header *----------- */
+
+
+/* ---------* Body *------------------ */
+.page-slogan-content {
+    margin: 45px 0;
+    border-bottom: 10px solid #D2D9DC;
+    padding-bottom: 35px;
+}
+.health-logo {
+    float: left;
+    margin-right: 30px;
+}
+.slogan-text p {
+    margin: 0;
+    font-size: 15px;
+}
+.btn.btn-green {
+    background-color: #79B602;
+    color: #fff;
+    float: right;
+    border-bottom: 4px solid #52920C;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn.btn-green:hover {
+    background-color: #6DA00B;
+    border-bottom: 4px solid #478800;
+}
+.post-content h1, 
+.post-content h2, 
+.post-content h3, 
+.post-content h4, 
+.post-content h5, 
+.post-content h6 
+{
+    color: #79B602;
+}
+.partners-content {
+    overflow: hidden;
+    margin-top: 100px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+.bottom-content-wrapper {
+    background-color: #F3F3F3;
+    margin-top: 70px;    
+}
+.bottom-content {
+    padding: 40px 0;
+}
+.text-bottom-wrapper h4 {
+    color: #333;
+}
+.text-bottom-wrapper p {
+    font-size: 12px;
+}
+/* ---------* end: Body *------------- */
+
+
+/* ---------* Footer *---------------- */
+footer {
+    background: url( img/sand.png ) #333;
+    border-top: 10px solid #4d4d4d;    
+}
+.footer-nav-wrapper {
+    padding-top: 35px;
+    color: #889AA3;
+}
+.copyright {
+    padding: 15px 0;
+    margin-top: 35px;
+    border-top: 1px solid #666666;
+}
+.copyright p {
+    margin: 0;
+    font-size: 12px;
+}
+.copyright p a {
+    color: inherit;
+}
+/* ---------* end: Footer *----------- */
+
+
+/* ---------* Custom *---------------- */
+.remove-margin {
+	margin: 0;
+}
+.remove-side-padding {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.img-responsive {
+    width: 100%;
+}
+.overflow {
+    overflow: hidden;
+}
+.scrolltop-wrapper {
+    position: fixed;
+    z-index: 100;
+    bottom: 5%;
+    right: 5%;
+    text-align: center;
+}
+.scrolltop-wrapper .btn-arrow-up {
+    border: 3px solid #79B602;
+    border-radius: 50% 50%;
+    display: inline-block;
+    width: 50px;
+    padding: 7px 11px;
+    font-size: 21px;
+    background: rgba(238, 238, 238, 0.8);
+    cursor: pointer;
+    color: #79B602;
+}
+/* ---------* end: Custom *----------- */
+
+
+/* ---------* Override Bootstrap *---- */
+#animated-navbar-toggle {
+	float: right;
+}
+.tcon-grid .tcon-grid__item {
+    background: #ccc;
+    color: #ccc;
+}
+.navbar {
+	min-height: 1px;
+}
+.navbar-header {
+    border-radius: 5px 5px 0 0;
+    background: #333;
+}
+.nav > li.active > a {
+    background-color: #7ab602;
+    color: #fff;
+}
+.nav > li > a:hover, 
+.nav > li > a:focus
+{
+	text-decoration: none;
+    background-color: transparent;
+    color: #7ab602 !important;
+}
+.nav .open > a, 
+.nav .open > a:focus,
+.nav .open > a:hover {
+    background-color: #7ab602;
+    color: #fff !important;
+}
+.dropdown ul {
+    background-color: #f2f5f6;
+}
+.dropdown ul li a {
+    color: #333 !important;
+}
+.dropdown ul li a:hover {
+    background-color: transparent;
+    color: #7ab602 !important;
+}
+/* ---------* end: Override *--------- */

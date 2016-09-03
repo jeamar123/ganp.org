@@ -1,0 +1,114 @@
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.tcon-grid {
+		display: none !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+		width: 991px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.ls-slide img.ls-bg {
+		width: 100% !important;
+	   	margin-left: 0!important; 
+	}
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	.container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media only screen and (max-width : 960px) {
+	.main-slides-wrapper,
+	.newsletter-wrapper
+	{
+		width: 100%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	.heading-wrapper > div {
+		text-align: center;
+	}
+	#main-menu-wrapper {
+	    border-radius: 0px !important;	
+	}
+	#main-menu {
+	    margin: 0;
+	    border-radius: 0;
+	}
+	.btn-green-wrapper {
+		text-align: center;
+		margin-top: 20px;
+	}
+	.btn-green {
+		float: none !important;
+	}
+	.post-content p {
+		text-align: justify;
+	}
+	.partners-content .img-wrapper:not( :last-child ) {
+		width: 50%;
+	}
+	.partners-content .img-wrapper:last-child {
+		width: 100%;
+	}
+	.footer-nav-wrapper div {
+		width: 100%;
+		text-align: center;
+	}
+	.footer-logo-wrapper {
+		margin-bottom: 30px;
+	}
+	.newsletter-pages {
+		margin-top: 50px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 479px) {
+	.partners-content .img-wrapper {
+		width: 100% !important;
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 319px) {
+    
+}

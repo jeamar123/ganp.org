@@ -1,0 +1,29 @@
+.border-gray {
+	border-bottom: 10px solid #b9c5cb;
+	width: 100%;
+	margin-bottom: 20px;	
+}
+.page-title {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    color: #333;
+    margin-bottom: 65px;
+}
+.newsletter-wrapper {
+    background-color: #DBE0E2;
+    height: 100%;
+    overflow: hidden;
+    padding: 7px;
+}
+#newsletter-content {
+    padding: 10px;
+    height: 100%;
+    background-color: #C2CBCF;
+    text-align: center;
+}
+#newsletter-content h4 {
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #DEE3E6;
+    padding-bottom: 12px;
+}
